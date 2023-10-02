@@ -13,3 +13,11 @@ body {
 div {
   border: solid 1px gray;
 }
+
+#logo-section {
+  flex: 1;
+}
+
+#text-section {
+  flex: 2;
+}
