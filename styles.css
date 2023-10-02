@@ -5,9 +5,15 @@
   font-family: "Young Serif", serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: row;
+  border: solid 2px green;
 }
 
 div {
@@ -15,9 +21,11 @@ div {
 }
 
 #logo-section {
-  flex: 1;
+  flex: 1 1 33%;
+  background-image: url("images/bubbles.jpg");
+  background-size: cover;
 }
 
 #text-section {
-  flex: 2;
+  flex: 2 1 66%;
 }
