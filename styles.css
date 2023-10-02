@@ -17,7 +17,6 @@ body {
 }
 
 div {
-  border: solid 1px gray;
 }
 
 #logo-section {
@@ -28,4 +27,33 @@ div {
 
 #text-section {
   flex: 2 1 66%;
+}
+
+#logo-background-banner {
+  margin-top: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(77, 103, 118, 0.729);
+  padding: 5px 20px 5px 20px;
+}
+
+#logo-icon {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img {
+  width: clamp(150px, 20vw, 200px);
+}
+
+#logo-text {
+  flex: 1 1 auto;
+  font-size: clamp(15px, 2vw, 20px);
+}
+
+h1 {
+  color: white;
 }
