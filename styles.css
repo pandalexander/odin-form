@@ -67,11 +67,14 @@ h1 {
 
 #text-section div {
   border: solid 2px gray;
-  height: 33vh;
+  height: clamp(200px, 33vw, 350px);
 }
 
 #text-top {
   padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text-top-content:first-child {
