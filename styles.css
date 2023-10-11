@@ -89,6 +89,8 @@ h1 {
   box-shadow: 0 4px 10px 0px #d8d9da;
   display: flex;
   flex-direction: column;
+  min-height: 270px;
+  max-height: 270px;
 }
 
 #text-title {
@@ -114,6 +116,7 @@ input {
 }
 
 #text-bottom {
+  flex: 1;
   margin-top: 10px;
   padding: 20px;
   background-color: #f9fafb;
