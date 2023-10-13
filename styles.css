@@ -89,8 +89,8 @@ h1 {
   box-shadow: 0 4px 10px 0px #d8d9da;
   display: flex;
   flex-direction: column;
-  min-height: 270px;
-  max-height: 270px;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 #text-title {
@@ -103,9 +103,21 @@ form {
   max-width: 500px;
 }
 
+label {
+  color: #232d3a;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+  font-size: 70%;
+  font-weight: 600;
+}
+
 input {
   width: 200px;
   margin-bottom: 20px;
+  padding: 7px;
+  border-radius: 3px;
+  border: solid 1px #ebecef;
+  font-size: 90%;
 }
 
 .column {
@@ -125,13 +137,15 @@ input {
 button {
   margin: 0px 0px 30px 30px;
   width: 180px;
-  height: 40px;
+  height: 45px;
   border-style: none;
   background-color: #4d6776ba;
   color: white;
   font-weight: 600;
   border-radius: 5px;
-  box-shadow: 4px 4px 10px 0px #969696;
+  box-shadow: 2px 2px 5px 0px #969696;
+  font-size: 90%;
+  letter-spacing: 0.05rem;
 }
 
 #login {
