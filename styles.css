@@ -120,6 +120,12 @@ input {
   font-size: 90%;
 }
 
+input:focus {
+  box-shadow: 2px 2px 5px 0px #969696;
+  border: solid 1px blue;
+  outline: none;
+}
+
 .column {
   display: flex;
   flex-direction: column;
