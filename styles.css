@@ -130,6 +130,23 @@ input:focus {
   outline: none;
 }
 
+input:invalid {
+  box-shadow: 2px 2px 5px 0px #969696;
+  border: solid 1px #ae3832;
+  outline: none;
+}
+
+.no-match-visible {
+  margin-top: 3px;
+  color: #ae3832;
+}
+
+.no-match-invisible {
+  margin-top: 3px;
+  font-size: small;
+  display: none;
+}
+
 .column {
   display: flex;
   flex-direction: column;
