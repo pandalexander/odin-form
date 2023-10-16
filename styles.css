@@ -69,7 +69,7 @@ h1 {
 
 #text-top {
   background-color: #f9fafb;
-  padding: 10px 20px;
+  padding: 10px 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,8 +93,8 @@ h1 {
   box-shadow: 0 4px 10px 0px #d8d9da;
   display: flex;
   flex-direction: column;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 320px;
+  max-height: 320px;
 }
 
 #text-title {
@@ -113,11 +113,11 @@ label {
   text-transform: uppercase;
   font-size: 70%;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 input {
   width: 200px;
-  margin-bottom: 20px;
   padding: 7px;
   border-radius: 3px;
   border: solid 1px #ebecef;
@@ -140,12 +140,12 @@ input:focus {
 #text-bottom {
   flex: 1;
   margin-top: 10px;
-  padding: 20px;
+  padding: 35px;
   background-color: #f9fafb;
 }
 
 button {
-  margin: 0px 0px 30px 30px;
+  margin: 0px 0px 30px 0px;
   width: 180px;
   height: 45px;
   border-style: none;
@@ -156,10 +156,6 @@ button {
   box-shadow: 2px 2px 5px 0px #969696;
   font-size: 90%;
   letter-spacing: 0.05rem;
-}
-
-#login {
-  margin-left: 30px;
 }
 
 a {
